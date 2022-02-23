@@ -16,6 +16,9 @@ async function start() {
     <React.StrictMode>
       <Provider store={store}>
         <App />
+        <footer>
+          <p style={{ textAlign: 'center', backgroundColor: '#764abc', color: 'white', marginTop: "2em" }}>Author: <a href='https://github.com/yasen002'>Yasen A</a> </p>
+        </footer>
       </Provider>
     </React.StrictMode>,
     document.getElementById('root')
